@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(images/seconpic.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.profile-card {
+  width: 460px;
+  max-width: calc(100vw - 20px);
+  height: auto;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  box-shadow: 15px 15px 50px 25px rgba(10, 10, 10, 0.603);
+  border-radius: 18px;
+}
+
+.heading {
+  height: 30%;
+  width: 100%;
+}
+
+.name-heading {
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 15px;
+  border-left: 2px solid grey;
+  line-height: 1.9;
+}
